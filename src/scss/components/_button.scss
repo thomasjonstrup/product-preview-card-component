@@ -1,0 +1,31 @@
+@use '../global/' as *;
+
+.btn {
+	display: inline-flex;
+	border-radius: 1.5rem;
+	padding: 1rem 1.8rem;
+	outline: none;
+	border: none;
+	transition: 0.23s ease-in-out;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	border-radius: 8px;
+	font-weight: 500;
+	flex: 1;
+	width: 100%;
+	gap: 1rem;
+
+	&--primary {
+		background-color: $dark-cyan;
+		color: $white;
+	}
+
+	&__icon {
+		width: 16px;
+		height: 16px;
+		background-image: url('../../images/icon-cart.svg');
+		background-repeat: no-repeat;
+	}
+}
